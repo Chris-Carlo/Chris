@@ -18,7 +18,12 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-no one gonna help you 🤣🤣🤣🤣
+Hi {}, my name is {}!I am a group manager bot made by  [Chris Carlo] (tg://user?id={}). If you have any questions on how to use me, read /help - and then head to @ChrisSupport.
+I am a group manager bot built in python3, using the python-telegram-bot library, and am fully opensource; \
+Feel free to contact my support group, @ChrisSupport, with any bugs, questions \
+or feature requests you might have :)
+I also have a news channel, @ChrisBotNews for announcements on new features, downtime, etc.
+You can find the list of available commands with /help.
 """
 
 HELP_STRINGS = """
@@ -26,11 +31,11 @@ HELP_STRINGS = """
 Hello! my name *{}*.
 
 *Main* available commands:
- - /start: Start the bot...
- - /help: help....
+ - /start: Start the bot
+ - /help: help
  - /donate: To find out more about donating!
  - /settings:
-   - in PM: To find out what SETTINGS you have set....
+   - in PM: To find out what SETTINGS you have set
    - in a group:
 
 {}
@@ -38,10 +43,10 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
+It took lots of work for [my creator](tx.me/Chris_Carlo) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+There is a way to paying him; [PayPal](paypal.me/)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
