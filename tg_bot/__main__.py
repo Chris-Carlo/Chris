@@ -20,8 +20,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hi {}, my name is {}! I am a group manager bot made by  [Chris Carlo](tg://user?id={}). 
 If you have any questions on how to use me, read /help - and then head to @ChrisSupport.
-I am a group manager bot built in python3, using the python-telegram-bot library.
-You can add me in you group.
+I am a group manager bot built in python3, using the python-telegram-bot library. You can add me in your group.
 Feel free to contact my support group, @ChrisSupport, with any bugs, questions or feature requests you might have.
 I also have a news channel, @ChrisBotNews for announcements on new features, downtime, etc.
 You can find the list of available commands with /help.
